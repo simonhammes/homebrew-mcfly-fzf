@@ -13,6 +13,24 @@ class McflyFzf < Formula
     system "cargo", "install", *std_cargo_args
   end
 
+  def caveats
+    <<~EOS
+      Add the following to the end of your ~/.bashrc, ~/.zshrc, or ~/.config/fish/config.fish file:
+
+      Bash:
+        eval "$(mcfly init bash)"
+        eval "$(mcfly-fzf init bash)"
+
+      Zsh:
+        eval "$(mcfly init zsh)"
+        eval "$(mcfly-fzf init zsh)"
+
+      Fish:
+        mcfly init fish | source
+        mcfly-fzf init fish | source
+    EOS
+  end
+
   test do
     assert shell_output("#{bin}/mcfly-fzf --version")
   end
