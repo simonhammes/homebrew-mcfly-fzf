@@ -1,3 +1,7 @@
+# typed: true
+# frozen_string_literal: true
+
+# Formula for mcfly-fzf
 class McflyFzf < Formula
   desc "Integrate McFly with fzf"
   homepage "https://github.com/bnprks/mcfly-fzf"
