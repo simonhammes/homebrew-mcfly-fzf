@@ -6,7 +6,7 @@ class McflyFzf < Formula
   desc "Integrate McFly with fzf"
   homepage "https://github.com/bnprks/mcfly-fzf"
   url "https://github.com/bnprks/mcfly-fzf/archive/refs/tags/0.1.3.tar.gz"
-  sha256 "353b35769cef7a1c67e1b310810e306863e4337f8bb8144d002a2e15ad3906f2"
+  sha256 "e5d9f5ed56889c8f27d4526b2570d41d8a368d17a9f5d94d2876956b1e1cf430"
   license "MIT"
 
   bottle do
