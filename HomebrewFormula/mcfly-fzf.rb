@@ -11,7 +11,7 @@ class McflyFzf < Formula
 
   bottle do
     root_url "https://github.com/simonhammes/homebrew-mcfly-fzf/releases/download/mcfly-fzf-0.1.3"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "799d2b2352c8300a26c8cced24162c79c57b126ae6ae24c5636a38900392813c"
+    sha256 cellar: :any_skip_relocation, monterey: "35ea8733168f4459c93ae1fb3ec5a7e7cd9f8795e7b6ef8e2d5ebfd2c04c9304"
   end
 
   depends_on "rust" => :build
